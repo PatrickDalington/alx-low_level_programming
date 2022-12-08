@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main print size of characters
+ * main - Print sizes of charcters
  *
- * Return: always zero representing success.
+ * Return: Always 0 (success)
  */
 
 int main(void)
