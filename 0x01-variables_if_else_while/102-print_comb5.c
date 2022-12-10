@@ -11,24 +11,29 @@ int main(void)
 	int x, y;
 	int a, b, c, d;
 
-	for (y = 0; y < 100; y++)
+	for (x = 0; x < 100; x++)
 	{
-		a = y / 10; /* double numbers */
-		b = y % 10; /* single numbers */
+		a = x / 10; /* double numbers */
+		b = x % 10; /* single numbers */
 		
-		if(a < c || (a == c && b < d))
+		for (y = 0; y < 100; y++)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
-			putchar(32);
-			putchar(c + '0');
-			putchar(d + '0');
+			c = y / 10; /* double numbers */
+			d = y % 10; /* single numbers */
+			if (a < c || (a == c && b < d))
+			{
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(32);
+				putchar(c + '0');
+				putchar(d + '0');
 				
-				if (!(a == 9 && b == 8))
-				{
-					putchar(44);
-					putchar(32);
-				}
+					if (!(a == 9 && b == 8))
+					{
+						putchar(44);
+						putchar(32);
+					}
+			}
 		}
 	}
 	putchar(10);
