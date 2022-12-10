@@ -14,8 +14,7 @@ int main(void)
 	for (x = 0; x < 100; x++)
 	{
 		a = x / 10; /* double numbers */
-		b = x % 10; /* single numbers */
-		
+		b = x % 10; /* single numbers */		
 		for (y = 0; y < 100; y++)
 		{
 			c = y / 10; /* double numbers */
@@ -27,7 +26,6 @@ int main(void)
 				putchar(32);
 				putchar(c + '0');
 				putchar(d + '0');
-				
 					if (!(a == 9 && b == 8))
 					{
 						putchar(44);
