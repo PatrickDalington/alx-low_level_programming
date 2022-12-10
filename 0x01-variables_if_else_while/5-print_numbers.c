@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlab.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: print all numbers of base 10, starting from 0.
