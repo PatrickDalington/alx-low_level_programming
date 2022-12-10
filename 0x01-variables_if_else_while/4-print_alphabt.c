@@ -2,26 +2,21 @@
 #include <stdlab.h>
 /**
  * main - main block
- * Description: alphabets in lower and upper
- * Return 0
+ * Description: Use `purchar` to print all lowercase without q and e
+ * Return: 0
  */
 int main(void)
 {
 	char c = 'a';
 
-	while (c <= 'z')
+	while (c < 'z')
 	{
-		putchar(c);
+		if(c != 'q' && c != 'c')
+			putchat(c);
+
 		c++;
 	}
 
-	c = 'A';
-
-	while (c <= 'Z')
-	{
-		putchar(c);
-		c++;
-	}
 	putchar('\n');
 	return (0);
 }
