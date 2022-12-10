@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlab.h>
+#include <stdlib.h>
 /**
  * main - manin block
  * Description: Print all possible combination of single digits
