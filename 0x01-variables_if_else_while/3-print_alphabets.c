@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlab.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: alphabets in lower and upper
