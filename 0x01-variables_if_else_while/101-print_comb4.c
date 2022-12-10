@@ -8,13 +8,13 @@ int main(void)
 {
 	int w, x, y, z;
 
-	for (w =0; w < 1000; w++)
+	for (w = 0; w < 1000; w++)
 	{
 		x = w / 100; /* This will store hundreds */
 		y = (w / 10) % 10; /* This will store tens */
 		z = w % 10; /* This will store singles */
 
-		if(x < y && y < z)
+		if (x < y && y < z)
 		{
 			putchar(x + '0');
 			putchar(y + '0');

@@ -11,10 +11,10 @@ int main(void)
 	int x, y;
 	int a, b, c, d;
 
-	for (x = 0; x < 100; x++)
+	for (y = 0; y < 100; y++)
 	{
-		a = x / 10; /* double numbers */
-		b = x % 10; /* single numbers */
+		a = y / 10; /* double numbers */
+		b = y % 10; /* single numbers */
 		
 		if(a < c || (a == c && b < d))
 		{
@@ -28,7 +28,7 @@ int main(void)
 				{
 					putchar(44);
 					putchar(32);
-				}
+i				}
 		}
 	}
 	putchar(10);
