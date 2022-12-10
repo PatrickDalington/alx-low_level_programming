@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: alphabets in lower and upper
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
