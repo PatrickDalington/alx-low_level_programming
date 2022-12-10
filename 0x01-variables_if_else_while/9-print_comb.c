@@ -3,6 +3,7 @@
 /**
  * main - manin block
  * Description: Print all possible combination of single digits
+ * Return: 0
  */
 int main(void)
 {
