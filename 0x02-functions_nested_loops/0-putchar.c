@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
  * main- This function prints _putchar using the local header file
  * Description: Write a program that prints _putchar, followed by a new line
@@ -7,14 +7,16 @@
  */
 int main(void)
 {
-	unsigned int x;
-
-	char c[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-	
-	for (x = 9; x< sizeof(c); x++)
-	{
-		_putchar(c[x]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
+
 	return (0);
 }
