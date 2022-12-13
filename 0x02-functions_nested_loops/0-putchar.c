@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main- This function prints _putchar using the local header file
  * Description: Write a program that prints _putchar, followed by a new line
