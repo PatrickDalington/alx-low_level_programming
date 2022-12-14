@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (y != 20365011074)
 		{
-			printf(",%ld\,", y);
+			printf("%ld\,", y);
 		}
 		else
 		{
