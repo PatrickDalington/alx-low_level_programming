@@ -13,7 +13,7 @@ int main(void)
 
 	printf("%lu", y);
 
-	for (x = 1; x < 91; xi++)
+	for (x = 1; x < 91; x++)
 	{
 		printf(", %lu", z);
 		z = z + y;
@@ -25,7 +25,7 @@ int main(void)
 	z1 = z / 1000000000;
 	z2 = z % 1000000000;
 
-	for (i = 92; i < 99; ++i)
+	for (x = 92; x < 99; ++x)
 	{
 		printf(", %lu", z1 + (z2 / 1000000000));
 	 	printf("%lu", z2 % 1000000000);
