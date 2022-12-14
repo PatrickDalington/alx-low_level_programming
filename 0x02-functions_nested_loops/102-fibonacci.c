@@ -19,7 +19,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld, ", y);
+			printf("%ld", y);
 		}
 		next = y + z;
 		y = z;
