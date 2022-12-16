@@ -25,7 +25,9 @@ int main(void)
 
 	}
 	if (x > 2)
+	{
 		pf = x;
+	}
 	printf("%ld\n", pf);
 	return (0);
 }
