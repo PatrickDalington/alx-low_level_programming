@@ -14,7 +14,7 @@ void rev_string(char *s)
 		x++;
 	}
 	z = 0;
-	y = x -1;
+	y = x - 1;
 
 	while (z < y)
 	{
