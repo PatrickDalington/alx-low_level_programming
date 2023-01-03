@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /*
@@ -18,7 +17,7 @@ char *_strchr(char *s, char *accept)
 		s++;
 	}
 
-	if (*s == accept)
+	if (accept == '\0')
 		return (s);
 
 
