@@ -1,9 +1,9 @@
 #include "main.h"
 /*
  * _strspn - gets the length of a prefix substring.
- * @s: initial segment.
- * @accept: accepted bytes.
- * Return: the number of accepted bytes.
+ * @s: input
+ * @accept: input
+ * Return: Always 0
  */
 
 char *_strchr(char *s, char *accept)
