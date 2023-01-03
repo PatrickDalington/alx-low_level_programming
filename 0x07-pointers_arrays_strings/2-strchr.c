@@ -12,7 +12,8 @@ char *_strchr(char *s, char *accept)
 
 	while (*s != '\0')
 	{
-		if (*s == accept)
+
+		if (accept != '\0' && *s == accept)
 			return (s);
 		s++;
 	}
