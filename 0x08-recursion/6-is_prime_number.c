@@ -16,7 +16,7 @@ int is_prime(int x, int y)
 	else 
 		return (is_prime(x, y - 1));
 }
-i
+
 /**
  * is_prime_number - this function checks if the number is prime number 
  * @n: parameter
