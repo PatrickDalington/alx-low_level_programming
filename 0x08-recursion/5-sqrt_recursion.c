@@ -9,7 +9,7 @@
  * Return: sqrt
  */
 
-double sqrt1(int n, int a)
+int _sqrt(int n, int a)
 {
 	if (n == 1)
 		return (-1);
