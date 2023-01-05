@@ -12,11 +12,21 @@
 double sqrt1(int n, int a)
 {
 	if (n == 1)
-		return (1);
-	else if (a < 1)
+		return (-1);
+	else if ((a * a) > n)
 		return (-1);
 	else if (a * a == n)
 		return (a);
-	else if (a >= 8000)
-		return (sqrt1(n, a - 1));
+	return (sqrt1(n, a + 1));
+}
+
+/**
+ * _sqrt_recursion - main funct
+ * @n: int n
+ * Return: int
+ */
+
+int _sqrt_recursion(int n)
+{
+	return (_sqrt(n, 1));
 }
