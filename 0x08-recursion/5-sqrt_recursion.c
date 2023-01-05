@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * sqrt1 - finds the square root 
+ * _sqrt - finds the square root 
  * @n: number to look for it's sqrt
  * @a: parameter
  * Return: sqrt
@@ -12,7 +11,7 @@ int _sqrt(int n, int a)
 	if (n == 1)
 		return (-1);
 	else if ((a * a) > n)
-		return (-1);
+		return (1);
 	else if (a * a == n)
 		return (a);
 	return (_sqrt(n, a + 1));
