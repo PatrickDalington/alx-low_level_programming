@@ -17,7 +17,7 @@ int _sqrt(int n, int a)
 		return (-1);
 	else if (a * a == n)
 		return (a);
-	return (sqrt1(n, a + 1));
+	return (sqrt(n, a + 1));
 }
 
 /**
