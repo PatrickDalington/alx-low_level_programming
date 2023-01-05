@@ -1,6 +1,4 @@
 #include "main.h"
-#include <math.h>
-#include <stdbool.h>
 
 /**
  * sqrt1 - finds the square root 
