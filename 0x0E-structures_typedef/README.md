@@ -18,7 +18,7 @@ Task 2 - A dog will teach you unconditional love. If you can have that in your l
 
 
 
-Prototype: void print_dog(struct dog *d); Format: see example bellow You are allowed to use the standard library If an element of d is NULL, print (nil) instead of this element. (if name is NULL, print Name: (nil)) If d is NULL print nothing.
+Prototype: void print_dog(struct dog *d); Format: see example below You are allowed to use the standard library If an element of d is NULL, print (nil) instead of this element. (if name is NULL, print Name: (nil)) If d is NULL print nothing.
 
 
 
