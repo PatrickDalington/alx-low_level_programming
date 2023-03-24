@@ -1,12 +1,12 @@
 /**
- * _putchar - dummy function
+ * _isdigit - dummy function
  *
  * @c: dummy parameter
  *
  * Return: 0;
  */
 
-int _putchar(char c)
+int _isdigit(int c)
 {
 	return (0);
 }

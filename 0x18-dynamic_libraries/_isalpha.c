@@ -1,12 +1,12 @@
 /**
- * _putchar - dummy function
+ * _isalpha - dummy function
  *
  * @c: dummy parameter
  *
  * Return: 0;
  */
 
-int _putchar(char c)
+int _isalpha(int c)
 {
 	return (0);
 }

@@ -1,4 +1,7 @@
-#ifndef _MAIN_H_
+#ifndef __MAIN__
+#define __MAIN__
+
+#include <stdlib.h>
 
 int _putchar(char c);
 int _islower(int c);

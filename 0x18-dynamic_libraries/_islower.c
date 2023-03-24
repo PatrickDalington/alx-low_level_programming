@@ -1,12 +1,12 @@
 /**
- * _putchar - dummy function
+ * _islower - dummy function
  *
  * @c: dummy parameter
  *
  * Return: 0;
  */
 
-int _putchar(char c)
+int _islower(int c)
 {
 	return (0);
 }
