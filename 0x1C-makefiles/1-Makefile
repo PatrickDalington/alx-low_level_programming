@@ -1,5 +1,10 @@
-CC = gcc
-SRC = main.c holberton.c
+# this makefile compiles specified .c files in the current directory
+#+ VARIABLES:
+#++ CC -> compiler to be used
+#++ SRC -> required files
 
-all: $(SRC)
-	$(CC) $(SRC) -o holberton
+CC = gcc
+SRC = main.c school.c
+
+all : $(SRC)
+	$(CC) $(SRC) -o school

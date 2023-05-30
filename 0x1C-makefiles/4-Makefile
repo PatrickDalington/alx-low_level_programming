@@ -1,19 +1,23 @@
+# make file for task -: 3. make -f 3-Makefile
+
 CC = gcc
-SRC = main.c holberton.c
-OBJ = $(SRC:.c=.o) 
-NAME = holberton
-RM = rm -f
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
-all: $(OBJ)
-	$(CC) $(CLFAGS) $(OBJ) -o $(NAME)
+all : $(OBJ) $(SRC)
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJ)
 
-clean:
-	$(RM) *~ $(NAME)
+clean :
+	$(RM) -f *~ $(NAME)
 
-oclean:
-	$(RM) $(OBJ)
+oclean :
+	$(RM) -f $(OBJ)
 
-fclean: clean oclean
+fclean :
+	$(RM) -f *~ $(NAME)
+	$(RM) -f $(OBJ)
 
-re: fclean all
+re :	oclean all
